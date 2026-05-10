@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cat Names</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #000000;
+    color: #00ff41;
+    /* Futura is not on Google Fonts; use a geometric sans-serif stack that mimics it */
+    font-family: 'Futura', 'Century Gothic', 'Trebuchet MS', 'Outfit', sans-serif;
+    font-size: 8pt;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 10pt;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #00ff41;
+    padding-bottom: 6px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 2px 12px;
+  }
+
+  .name {
+    padding: 1px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .name::before {
+    content: "› ";
+    opacity: 0.5;
+  }
+</style>
+</head>
+<body>
+
+<h1>210 Cat Names</h1>
+
+<div class="grid">
+  <div class="name">Luna</div>
+  <div class="name">Bella</div>
+  <div class="name">Oliver</div>
+  <div class="name">Milo</div>
+  <div class="name">Leo</div>
+  <div class="name">Loki</div>
+  <div class="name">Nala</div>
+  <div class="name">Simba</div>
+  <div class="name">Cleo</div>
+  <div class="name">Chloe</div>
+  <div class="name">Lily</div>
+  <div class="name">Jasper</div>
+  <div class="name">Zoe</div>
+  <div class="name">Midnight</div>
+  <div class="name">Shadow</div>
+  <div class="name">Tiger</div>
+  <div class="name">Smokey</div>
+  <div class="name">Felix</div>
+  <div class="name">Oreo</div>
+  <div class="name">Pepper</div>
+  <div class="name">Willow</div>
+  <div class="name">Pumpkin</div>
+  <div class="name">Misty</div>
+  <div class="name">Salem</div>
+  <div class="name">Gizmo</div>
+  <div class="name">Mittens</div>
+  <div class="name">Whiskers</div>
+  <div class="name">Stella</div>
+  <div class="name">Coco</div>
+  <div class="name">Max</div>
+  <div class="name">Oscar</div>
+  <div class="name">Biscuit</div>
+  <div class="name">Hazel</div>
+  <div class="name">Archie</div>
+  <div class="name">Penny</div>
+  <div class="name">Gracie</div>
+  <div class="name">Toby</div>
+  <div class="name">Charlie</div>
+  <div class="name">Molly</div>
+  <div class="name">Ruby</div>
+  <div class="name">Chester</div>
+  <div class="name">Ginger</div>
+  <div class="name">Peanut</div>
+  <div class="name">Binx</div>
+  <div class="name">Sasha</div>
+  <div class="name">Patches</div>
+  <div class="name">Cali</div>
+  <div class="name">Daisy</div>
+  <div class="name">Harley</div>
+  <div class="name">Zeus</div>
+  <div class="name">Apollo</div>
+  <div class="name">Athena</div>
+  <div class="name">Artemis</div>
+  <div class="name">Thor</div>
+  <div class="name">Freya</div>
+  <div class="name">Odin</div>
+  <div class="name">Hera</div>
+  <div class="name">Hermes</div>
+  <div class="name">Iris</div>
+  <div class="name">Juno</div>
+  <div class="name">Mars</div>
+  <div class="name">Venus</div>
+  <div class="name">Neptune</div>
+  <div class="name">Pluto</div>
+  <div class="name">Mercury</div>
+  <div class="name">Aurora</div>
+  <div class="name">Nova</div>
+  <div class="name">Cosmos</div>
+  <div class="name">Galaxy</div>
+  <div class="name">Nebula</div>
+  <div class="name">Comet</div>
+  <div class="name">Pixel</div>
+  <div class="name">Byte</div>
+  <div class="name">Glitch</div>
+  <div class="name">Matrix</div>
+  <div class="name">Nano</div>
+  <div class="name">Bolt</div>
+  <div class="name">Blaze</div>
+  <div class="name">Storm</div>
+  <div class="name">Ash</div>
+  <div class="name">Ember</div>
+  <div class="name">Frost</div>
+  <div class="name">Sleet</div>
+  <div class="name">Flurry</div>
+  <div class="name">Cloud</div>
+  <div class="name">Mochi</div>
+  <div class="name">Sushi</div>
+  <div class="name">Wasabi</div>
+  <div class="name">Tofu</div>
+  <div class="name">Noodle</div>
+  <div class="name">Waffles</div>
+  <div class="name">Pancake</div>
+  <div class="name">Boba</div>
+  <div class="name">Pretzel</div>
+  <div class="name">Nacho</div>
+  <div class="name">Taco</div>
+  <div class="name">Churro</div>
+  <div class="name">Fudge</div>
+  <div class="name">Caramel</div>
+  <div class="name">Mocha</div>
+  <div class="name">Espresso</div>
+  <div class="name">Latte</div>
+  <div class="name">Chai</div>
+  <div class="name">Matcha</div>
+  <div class="name">Earl Grey</div>
+  <div class="name">Basil</div>
+  <div class="name">Sage</div>
+  <div class="name">Clover</div>
+  <div class="name">Fern</div>
+  <div class="name">Moss</div>
+  <div class="name">Ivy</div>
+  <div class="name">Maple</div>
+  <div class="name">Cedar</div>
+  <div class="name">Aspen</div>
+  <div class="name">Birch</div>
+  <div class="name">Elm</div>
+  <div class="name">Oak</div>
+  <div class="name">Fable</div>
+  <div class="name">Rune</div>
+  <div class="name">Myth</div>
+  <div class="name">Lore</div>
+  <div class="name">Echo</div>
+  <div class="name">Riddle</div>
+  <div class="name">Cipher</div>
+  <div class="name">Jinx</div>
+  <div class="name">Hex</div>
+  <div class="name">Vex</div>
+  <div class="name">Remy</div>
+  <div class="name">Louie</div>
+  <div class="name">Pierre</div>
+  <div class="name">Henri</div>
+  <div class="name">Marcel</div>
+  <div class="name">Toulouse</div>
+  <div class="name">Jacques</div>
+  <div class="name">Cosette</div>
+  <div class="name">Colette</div>
+  <div class="name">Bijou</div>
+  <div class="name">Gato</div>
+  <div class="name">Gatito</div>
+  <div class="name">Paco</div>
+  <div class="name">Chico</div>
+  <div class="name">Diego</div>
+  <div class="name">Rico</div>
+  <div class="name">Lola</div>
+  <div class="name">Camila</div>
+  <div class="name">Lucia</div>
+  <div class="name">Rosa</div>
+  <div class="name">Neko</div>
+  <div class="name">Kuro</div>
+  <div class="name">Shiro</div>
+  <div class="name">Hana</div>
+  <div class="name">Yuki</div>
+  <div class="name">Sora</div>
+  <div class="name">Riku</div>
+  <div class="name">Kaito</div>
+  <div class="name">Hoshi</div>
+  <div class="name">Tora</div>
+  <div class="name">Mochi</div>
+  <div class="name">Kiki</div>
+  <div class="name">Tiki</div>
+  <div class="name">Zazu</div>
+  <div class="name">Kona</div>
+  <div class="name">Kai</div>
+  <div class="name">Zara</div>
+  <div class="name">Raja</div>
+  <div class="name">Mango</div>
+  <div class="name">Papaya</div>
+  <div class="name">Kiwi</div>
+  <div class="name">Cleo</div>
+  <div class="name">Nefertiti</div>
+  <div class="name">Osiris</div>
+  <div class="name">Anubis</div>
+  <div class="name">Ra</div>
+  <div class="name">Isis</div>
+  <div class="name">Sphinx</div>
+  <div class="name">Pharaoh</div>
+  <div class="name">Cairo</div>
+  <div class="name">Memphis</div>
+  <div class="name">Napoleon</div>
+  <div class="name">Caesar</div>
+  <div class="name">Brutus</div>
+  <div class="name">Nero</div>
+  <div class="name">Virgil</div>
+  <div class="name">Dante</div>
+  <div class="name">Romeo</div>
+  <div class="name">Juliet</div>
+  <div class="name">Hamlet</div>
+  <div class="name">Ophelia</div>
+  <div class="name">Portia</div>
+  <div class="name">Puck</div>
+  <div class="name">Oberon</div>
+  <div class="name">Titania</div>
+  <div class="name">Caliban</div>
+  <div class="name">Prospero</div>
+  <div class="name">Miranda</div>
+  <div class="name">Merlin</div>
+  <div class="name">Morgan</div>
+  <div class="name">Vivian</div>
+  <div class="name">Galahad</div>
+  <div class="name">Percival</div>
+  <div class="name">Tristan</div>
+  <div class="name">Isolde</div>
+  <div class="name">Guinevere</div>
+  <div class="name">Lancelot</div>
+  <div class="name">Arthur</div>
+  <div class="name">Nimue</div>
+  <div class="name">Sherlock</div>
+  <div class="name">Watson</div>
+  <div class="name">Holmes</div>
+  <div class="name">Moriarty</div>
+  <div class="name">Poirot</div>
+  <div class="name">Marple</div>
+  <div class="name">Columbo</div>
+  <div class="name">Clue</div>
+  <div class="name">Bandit</div>
+  <div class="name">Rascal</div>
+  <div class="name">Scout</div>
+  <div class="name">Ranger</div>
+  <div class="name">Maverick</div>
+  <div class="name">Rebel</div>
+  <div class="name">Outlaw</div>
+  <div class="name">Drifter</div>
+  <div class="name">Nomad</div>
+  <div class="name">Phantom</div>
+</div>
+
+</body>
+</html>
